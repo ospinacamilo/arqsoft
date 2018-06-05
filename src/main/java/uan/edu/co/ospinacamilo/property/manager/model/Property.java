@@ -14,7 +14,7 @@ import com.fasterxml.jackson.annotation.JsonInclude;
  *
  */
 @Entity
-@Table(name = "Property")
+@Table(name = "properties")
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Property implements Serializable{
 	private static final long serialVersionUID = -2915524939360833764L;

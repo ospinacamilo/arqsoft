@@ -38,8 +38,8 @@ public class PropertyServiceImpl implements IPropertyService{
 	}
 
 	//@Override
-	public Iterable<Property> retrievePropertiesByAddress(String address) {
-		return repository.findByAddress(address);
+	public Iterable<Property> retrievePropertiesByID(long id) {
+		return repository.findById(id);
 	}
 
 }

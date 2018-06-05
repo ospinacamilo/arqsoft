@@ -23,6 +23,6 @@ public interface IPropertyService {
 	 * @param address
 	 * @return
 	 */
-	public Iterable<Property> retrievePropertiesByAddress(String address);
+	public Iterable<Property> retrievePropertiesByID(long id);
 
 }

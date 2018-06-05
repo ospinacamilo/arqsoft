@@ -6,5 +6,5 @@ import org.springframework.data.repository.CrudRepository;
 
 
 public interface PropertyRepository extends CrudRepository<Property, Long>{
-	List<Property> findByAddress(String address);
+	List<Property> findById(long id);
 }
